@@ -23,9 +23,9 @@ public class CustomClassLoader extends ClassLoader {
         CustomClassLoader customClassLoader = new CustomClassLoader(path);
         try {
             customClassLoader.findClass("Hello").newInstance();
-            Class clazz= customClassLoader.loadClass("Hello");
-            Method method=clazz.getMethod("hello",null);
-            Object obj=clazz.newInstance();
+            Class clazz = customClassLoader.loadClass("Hello");
+            Method method = clazz.getMethod("hello",null);
+            Object obj = clazz.newInstance();
             method.invoke(obj,null);
         } catch (InstantiationException | IllegalAccessException | ClassNotFoundException | NoSuchMethodException | InvocationTargetException e) {
             e.printStackTrace();
@@ -54,6 +54,9 @@ public class CustomClassLoader extends ClassLoader {
 
     }
 
+    /**
+     * 读取文件
+     */
     private byte[] getClassFileBytes(String fileName) throws Exception {
         File file = new File(this.path + fileName);
         try (FileInputStream fis = new FileInputStream(file);
