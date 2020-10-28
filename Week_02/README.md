@@ -24,13 +24,17 @@ http://note.youdao.com/s/FOZfvDeA
 (1) java -jar -Xmx512m -Xms512m -XX:+UseSerialGC gateway-server-0.0.1-SNAPSHOT.jar 
 (2) java -jar -Xmx512m -Xms512m -XX:+UseConcMarkSweepGC gateway-server-0.0.1-SNAPSHOT.jar 
 (3) java -jar -Xmx512m -Xms512m -XX:+UseParallelGC gateway-server-0.0.1-SNAPSHOT.jar 
-(4) java -jar -Xmx512m -Xms512m -XX:+UseSerialGC gateway-server-0.0.1-SNAPSHOT.jar 
+(4) java -jar -Xmx512m -Xms512m -XX:+UseG1GC gateway-server-0.0.1-SNAPSHOT.jar 
+
+增加gc log
+java -jar -Xmx1g -Xms1g -XX:+UseG1GC -Xloggc:gc.cms.log -XX:+PrintGC gateway-server-0.0.1-SNAPSHOT.jar
+java -jar -Xmx1g -Xms1g -XX:+UseConcMarkSweepGC -Xloggc:gc.g1.log -XX:+PrintGC gateway-server-0.0.1-SNAPSHOT.jar
 
 
-3从验证现象和结果总结：
-(1)通过比较发现ParNew类型的YoungGC平均StopTheWord时间明显短于ParallelGC
-(2)通过比较发现CMS类型的OldGC平均StopTheWord时间明显短于ParallelGC
-
-
+3、从验证现象和结果总结：
+(1)分别压测cms和g1，发现内存在1g时，cms的ygc 表现更好，平均gc时间更少，内存占比也更少
+(2)通过比较发现CMS类型的OldGC平均STW时间明显更少
+(3) G1 初始分配内存更少，cms初始分配内存较多
+(4) 在4G内存时，g1平均时间较少
 
 
