@@ -13,7 +13,21 @@ GC策略
 
 (1)在堆配置256M时， 发现cms未发生OOM，其他gc策略都发生了OOM
 (2)配置512M及以上堆内存，都未发生OOM。
-(3)在1G堆时，配置CMS 创建的对象最多，G1 表现不如CMS，甚至PS
+(3)在1G堆时，配置CMS 创建的对象最多，G1 从几次压测来看，没有CMS，PS表现好
 (4)G1在4G堆表现最好
 (5)小堆 PS或CMS 都表现的可以，一般用的多还是cms，大堆可以考虑用G1
+
+
+2、512M内存 不同GC压测 （堆调整了 1G，2G，4G）
+http://note.youdao.com/s/FOZfvDeA
+
+(1) java -jar -Xmx512m -Xms512m -XX:+UseSerialGC gateway-server-0.0.1-SNAPSHOT.jar 
+(2) java -jar -Xmx512m -Xms512m -XX:+UseConcMarkSweepGC gateway-server-0.0.1-SNAPSHOT.jar 
+(3) java -jar -Xmx512m -Xms512m -XX:+UseParallelGC gateway-server-0.0.1-SNAPSHOT.jar 
+(4) java -jar -Xmx512m -Xms512m -XX:+UseSerialGC gateway-server-0.0.1-SNAPSHOT.jar 
+
+
+
+
+
 
