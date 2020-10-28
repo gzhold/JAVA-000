@@ -27,6 +27,9 @@ http://note.youdao.com/s/FOZfvDeA
 (4) java -jar -Xmx512m -Xms512m -XX:+UseSerialGC gateway-server-0.0.1-SNAPSHOT.jar 
 
 
+3从验证现象和结果总结：
+(1)通过比较发现ParNew类型的YoungGC平均StopTheWord时间明显短于ParallelGC
+(2)通过比较发现CMS类型的OldGC平均StopTheWord时间明显短于ParallelGC
 
 
 
