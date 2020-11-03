@@ -59,9 +59,9 @@ public class SyncHttpOutboundHandler {
     public void handle(final FullHttpRequest fullRequest, final ChannelHandlerContext ctx) {
         final String url = this.backendUrl + fullRequest.uri();
 
-        List<String> urls = new ArrayList<>();
-        urls.add(url);
-        doSelect(urls);
+//        List<String> urls = new ArrayList<>();
+//        urls.add(url);
+//        String requestUrl = doSelect(urls);
 
         fetchGet(fullRequest, ctx, url);
     }

@@ -25,7 +25,8 @@ public class HttpInboundHandler extends ChannelInboundHandlerAdapter {
     private LoadBalance loadBalance;
     
     public HttpInboundHandler(String proxyServer) {
-        loadBalance = new LoadBalance("random");
+        // random   roundRobin
+        loadBalance = new LoadBalance("roundRobin");
         // 模拟多个host
         this.proxyServer = loadBalance.doSelect(Lists.newArrayList(proxyServer));
         handler = new SyncHttpOutboundHandler(this.proxyServer);
@@ -63,6 +64,8 @@ public class HttpInboundHandler extends ChannelInboundHandlerAdapter {
     private List<HttpRequestFilter> getFilters () {
         List<HttpRequestFilter> filterList = new ArrayList<>();
         filterList.add(new AccessLogFilter());
+        filterList.add(new BlackWhiteListFilter());
+        // 黑白名单过滤
         return filterList;
     }
 

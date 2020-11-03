@@ -12,8 +12,9 @@ public class LoadBalance{
     protected HttpEndpointRouter getRouter(String routerName) {
         if ("random".equals(routerName)) {
             return new RandomRouter();
+        } else if ("roundRobin".equals(routerName)) {
+            return new RoundRobinRouter();
         }
-
         return new RandomRouter();
     }
 
