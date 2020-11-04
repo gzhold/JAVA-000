@@ -7,7 +7,10 @@ gateway 作业
 打印header参数
 在header 加上参数 nio:gzhold
 
-3 自定义路由 RandomRouter
+BlackWhiteListFilter
+打印ip
+
+3 自定义路由  随机 RandomRouter   轮询 RoundRobinRouter
 
 在LoadBalance 处理业务，实现路由规则
 
