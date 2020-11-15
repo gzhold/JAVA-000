@@ -87,3 +87,44 @@
          Statement stmt = connection.createStatement();
          return stmt.executeQuery(sql);
      }
+     
+     
+3 AOP (工程 AOP-DEMO)
+(1) 装饰器模式，不修改原始类的逻辑
+    public class LogDecorator implements UserService {
+    
+        private UserService delegate;
+    
+        public LogDecorator(UserService delegate) {
+            this.delegate = delegate;
+        }
+    
+        public String query(String id) {
+            System.out.println("Log-query user, id is " + id);
+            return delegate.query(id);
+        }
+    }
+    
+(2) jdk动态代理
+    public class LogProxy implements InvocationHandler {
+    
+        private UserService delegate;
+    
+        public LogProxy(UserService delegate) {
+            this.delegate = delegate;
+        }
+    
+        public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+            System.out.println(proxy.getClass().getSimpleName() + "-" + method.getName() + " is invoked: " + Arrays.toString(args));
+            Object result = method.invoke(delegate, args);
+            System.out.println(method.getName() + " is finished: " + result);
+            return result;
+        }
+    }
+
+
+(3) 将指定类中所有带有 @MyLog 注解 ( 自定义注解)的方法都过滤出来 - ByteBuddy
+    代码实现：包test.aop.bytebuddy.log
+
+(4) 基于 AOP 和自定义注解，实现 @MyCache(60) 对于指定方法返回值缓存 60 秒 - ByteBuddy
+    代码实现：包test.aop.bytebuddy.cache
