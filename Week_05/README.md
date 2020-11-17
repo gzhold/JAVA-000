@@ -1,4 +1,4 @@
-1 bean的装配 (工程 spring-bean)
+1 [必做] bean的装配 (工程 spring-bean)
 （1）xml配置bean，通过applicationContext.getBean() 获取
     BeanInstantiationDemo
  (2)xml配置 factory-method，通过静态方法获取bean
@@ -12,7 +12,8 @@
  (6) 注解获取
     BeanAnnotationDemo
     
-2 jdbc (工程 JDBC-DEMO)
+2 [必做]jdbc (工程 JDBC-DEMO)
+
   demo中是在之前的netty-server 和 gateway 示例基础上改造的
   
  (1) 使用 JDBC 原生接口，实现数据库的增删改查操作 （实现类：HttpHandler）
@@ -128,3 +129,7 @@
 
 (4) 基于 AOP 和自定义注解，实现 @MyCache(60) 对于指定方法返回值缓存 60 秒 - ByteBuddy
     代码实现：包test.aop.bytebuddy.cache
+    
+(5) [必做]实现自动配置 （工程 auto-config）
+    代码实现：auto.config.AutoConfiguration
+    测试 ：test.auto.config.StudentTest
