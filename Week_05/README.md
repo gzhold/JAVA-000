@@ -130,6 +130,8 @@
 (4) 基于 AOP 和自定义注解，实现 @MyCache(60) 对于指定方法返回值缓存 60 秒 - ByteBuddy
     代码实现：包test.aop.bytebuddy.cache
     
+    可自定义失效时间，通过注解配置
+    
 (5) [必做]实现自动配置 （工程 auto-config）
     代码实现：auto.config.AutoConfiguration
     测试 ：test.auto.config.StudentTest

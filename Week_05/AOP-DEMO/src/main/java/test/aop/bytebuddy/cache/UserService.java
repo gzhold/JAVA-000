@@ -11,9 +11,9 @@ public class UserService {
     public List<Object> queryData (int id) {
         // 模拟一个查询操作
         Random random = new Random();
-        int size = random.nextInt(10) + 10;
+        int size = random.nextInt(id) + 10;
         return IntStream.range(0, size)
-                    .mapToObj(i -> random.nextInt(10))
+                    .mapToObj(i -> random.nextInt(id))
                     .collect(Collectors.toList());
     }
 
@@ -26,7 +26,7 @@ public class UserService {
     public List<Object> queryDataWithoutCache(int id) {
         // 模拟一个查询操作
         Random random = new Random();
-        int size = random.nextInt(10) + 1;
+        int size = random.nextInt(id) + 1;
         return IntStream.range(0, size)
                     .mapToObj(i -> random.nextBoolean())
                     .collect(Collectors.toList());

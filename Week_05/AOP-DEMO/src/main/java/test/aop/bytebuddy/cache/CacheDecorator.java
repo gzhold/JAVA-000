@@ -15,13 +15,13 @@ public class CacheDecorator {
 
     // 如果某个方法标注了@MyCache，则返回值能够被自动缓存注解所指定的时长
     @SuppressWarnings("unchecked")
-    public static <T> Class<T> decorate(Class<T> klass) {
+    public static <T> Class<T> decorate(Class<T> clazz) {
         return (Class<T>) new ByteBuddy()
-                    .subclass(klass)
+                    .subclass(clazz)
                     .method(ElementMatchers.isAnnotatedWith(MyCache.class))
                     .intercept(MethodDelegation.to(CacheAdvisor.class))
                     .make()
-                    .load(klass.getClassLoader())
+                    .load(clazz.getClassLoader())
                     .getLoaded();
     }
 
@@ -33,19 +33,18 @@ public class CacheDecorator {
                     @SuperCall Callable<Object> callable,
                     @Origin Method method, // 原始方法
                     @This Object thisObject, // 当前ByteBuddy动态对象
-                    @AllArguments Object[] arguments
-        ) throws Exception {
+                    @AllArguments Object[] arguments) throws Exception {
             CacheKey cacheKey = new CacheKey(thisObject, method.getName(), arguments);
             final CacheValue resultExistingInCache = cache.get(cacheKey);
 
             if (resultExistingInCache != null) {
                 if (isCacheExpires(resultExistingInCache, method)) {
-                    return invokeRealMethodAndPutIntoCache(callable, cacheKey);
+                    return invokeMethodAndPutIntoCache(callable, cacheKey);
                 } else {
                     return resultExistingInCache.value;
                 }
             } else {
-                return invokeRealMethodAndPutIntoCache(callable, cacheKey);
+                return invokeMethodAndPutIntoCache(callable, cacheKey);
             }
         }
 
@@ -61,7 +60,7 @@ public class CacheDecorator {
             return System.currentTimeMillis() - time > cacheTime * 1000;
         }
 
-        private static Object invokeRealMethodAndPutIntoCache(@SuperCall Callable<Object> callable, CacheKey cacheKey) throws Exception {
+        private static Object invokeMethodAndPutIntoCache(@SuperCall Callable<Object> callable, CacheKey cacheKey) throws Exception {
             Object realMethodInvocationResult = callable.call();
             cache.put(cacheKey, new CacheValue(realMethodInvocationResult, System.currentTimeMillis()));
             return realMethodInvocationResult;
