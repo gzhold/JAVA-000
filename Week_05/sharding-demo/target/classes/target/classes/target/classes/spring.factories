@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+sharding.plugin.config.ShardingTableConfiguration,\
+sharding.plugin.config.ShardingDataSourceConfiguration
