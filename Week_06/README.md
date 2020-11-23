@@ -76,3 +76,6 @@ CREATE TABLE t_product(
 （3）抽象工厂模式
 （4）建造者模式
 （5）单例模式
+
+3 工作中遇到mysql的问题
+http://note.youdao.com/s/IG42UR9X
