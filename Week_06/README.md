@@ -85,13 +85,16 @@ CREATE TABLE t_product(
 mysql目前工作中用的比较多，从以往遇到问题个人总结来看，出问题比较多的都是索引或sql关联查询太多。
 当然表设计问题也遇到过，如果一个表未设计好，后期处理会非常麻烦，甚至会需要重新设计表，迁移数据。
 
-(1) 总结了常见的mysql索引问题
+(1) B+索引
+http://note.youdao.com/s/PjkCLYhL
+
+(2) 总结了常见的mysql索引问题
 http://note.youdao.com/s/7Hx2D7Vf
 
-(2)使用不当导致查询不走索引
+(3)使用不当导致查询不走索引
 http://note.youdao.com/s/IG42UR9X
 
-(3) 工作中排查问题时，会用到mysql的一些命令
+(4) 工作中排查问题时，会用到mysql的一些命令
 慢查询日志：
 http://note.youdao.com/s/ch3d0tal
 
