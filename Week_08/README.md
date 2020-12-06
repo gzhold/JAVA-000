@@ -44,3 +44,7 @@ select * from t_order where user_id = 3;
 
 （3）打开proxy的配置： 打印sql为true
 可以观察真实sql
+
+
+2 shardingsphere-xa-demo 分布式事务
+ 参考 shardingsphere-examples
