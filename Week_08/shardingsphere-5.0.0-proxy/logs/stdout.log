@@ -1,0 +1,780 @@
+Exception in thread "main" java.lang.ClassCastException: java.lang.String cannot be cast to org.apache.shardingsphere.infra.yaml.config.YamlRuleConfiguration
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.infra.yaml.swapper.YamlRuleConfigurationSwapperEngine.swapToRuleConfigurations(YamlRuleConfigurationSwapperEngine.java:66)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.lambda$getRuleConfigurations$0(YamlProxyConfigurationSwapper.java:59)
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1321)
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.getRuleConfigurations(YamlProxyConfigurationSwapper.java:58)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.swap(YamlProxyConfigurationSwapper.java:50)
+	at org.apache.shardingsphere.proxy.initializer.impl.StandardBootstrapInitializer.getProxyConfiguration(StandardBootstrapInitializer.java:33)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.init(AbstractBootstrapInitializer.java:62)
+	at org.apache.shardingsphere.proxy.Bootstrap.main(Bootstrap.java:48)
+Exception in thread "main" java.lang.ClassCastException: java.lang.String cannot be cast to org.apache.shardingsphere.infra.yaml.config.YamlRuleConfiguration
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.infra.yaml.swapper.YamlRuleConfigurationSwapperEngine.swapToRuleConfigurations(YamlRuleConfigurationSwapperEngine.java:66)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.lambda$getRuleConfigurations$0(YamlProxyConfigurationSwapper.java:59)
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1321)
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.getRuleConfigurations(YamlProxyConfigurationSwapper.java:58)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.swap(YamlProxyConfigurationSwapper.java:50)
+	at org.apache.shardingsphere.proxy.initializer.impl.StandardBootstrapInitializer.getProxyConfiguration(StandardBootstrapInitializer.java:33)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.init(AbstractBootstrapInitializer.java:62)
+	at org.apache.shardingsphere.proxy.Bootstrap.main(Bootstrap.java:48)
+Exception in thread "main" java.lang.ClassCastException: java.lang.String cannot be cast to org.apache.shardingsphere.infra.yaml.config.YamlRuleConfiguration
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.infra.yaml.swapper.YamlRuleConfigurationSwapperEngine.swapToRuleConfigurations(YamlRuleConfigurationSwapperEngine.java:66)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.lambda$getRuleConfigurations$0(YamlProxyConfigurationSwapper.java:59)
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1321)
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.getRuleConfigurations(YamlProxyConfigurationSwapper.java:58)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.swap(YamlProxyConfigurationSwapper.java:50)
+	at org.apache.shardingsphere.proxy.initializer.impl.StandardBootstrapInitializer.getProxyConfiguration(StandardBootstrapInitializer.java:33)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.init(AbstractBootstrapInitializer.java:62)
+	at org.apache.shardingsphere.proxy.Bootstrap.main(Bootstrap.java:48)
+Exception in thread "main" java.lang.ClassCastException: java.lang.String cannot be cast to org.apache.shardingsphere.infra.yaml.config.YamlRuleConfiguration
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.infra.yaml.swapper.YamlRuleConfigurationSwapperEngine.swapToRuleConfigurations(YamlRuleConfigurationSwapperEngine.java:66)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.lambda$getRuleConfigurations$0(YamlProxyConfigurationSwapper.java:59)
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1321)
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.getRuleConfigurations(YamlProxyConfigurationSwapper.java:58)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.swap(YamlProxyConfigurationSwapper.java:50)
+	at org.apache.shardingsphere.proxy.initializer.impl.StandardBootstrapInitializer.getProxyConfiguration(StandardBootstrapInitializer.java:33)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.init(AbstractBootstrapInitializer.java:62)
+	at org.apache.shardingsphere.proxy.Bootstrap.main(Bootstrap.java:48)
+Exception in thread "main" java.lang.ClassCastException: java.lang.String cannot be cast to org.apache.shardingsphere.infra.yaml.config.YamlRuleConfiguration
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.infra.yaml.swapper.YamlRuleConfigurationSwapperEngine.swapToRuleConfigurations(YamlRuleConfigurationSwapperEngine.java:66)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.lambda$getRuleConfigurations$0(YamlProxyConfigurationSwapper.java:59)
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1321)
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.getRuleConfigurations(YamlProxyConfigurationSwapper.java:58)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.swap(YamlProxyConfigurationSwapper.java:50)
+	at org.apache.shardingsphere.proxy.initializer.impl.StandardBootstrapInitializer.getProxyConfiguration(StandardBootstrapInitializer.java:33)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.init(AbstractBootstrapInitializer.java:62)
+	at org.apache.shardingsphere.proxy.Bootstrap.main(Bootstrap.java:48)
+Exception in thread "main" java.lang.ClassCastException: java.lang.String cannot be cast to org.apache.shardingsphere.infra.yaml.config.YamlRuleConfiguration
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.infra.yaml.swapper.YamlRuleConfigurationSwapperEngine.swapToRuleConfigurations(YamlRuleConfigurationSwapperEngine.java:66)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.lambda$getRuleConfigurations$0(YamlProxyConfigurationSwapper.java:59)
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1321)
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.getRuleConfigurations(YamlProxyConfigurationSwapper.java:58)
+	at org.apache.shardingsphere.proxy.config.yaml.swapper.YamlProxyConfigurationSwapper.swap(YamlProxyConfigurationSwapper.java:50)
+	at org.apache.shardingsphere.proxy.initializer.impl.StandardBootstrapInitializer.getProxyConfiguration(StandardBootstrapInitializer.java:33)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.init(AbstractBootstrapInitializer.java:62)
+	at org.apache.shardingsphere.proxy.Bootstrap.main(Bootstrap.java:48)
+[INFO ] 21:08:25.077 [main] o.a.c.f.imps.CuratorFrameworkImpl - Starting
+[INFO ] 21:08:25.090 [main] org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 02/25/2020 14:38 GMT
+[INFO ] 21:08:25.090 [main] org.apache.zookeeper.ZooKeeper - Client environment:host.name=localhost
+[INFO ] 21:08:25.090 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_221
+[INFO ] 21:08:25.090 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+[INFO ] 21:08:25.090 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre
+[INFO ] 21:08:25.090 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=.:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-context-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-executor-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-sqlserver-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-config-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jta-1.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-repository-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-codec-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jcl-over-slf4j-1.7.7.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-bootstrap-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-registry-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/antlr4-runtime-4.7.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-all-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-noop-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/HikariCP-3.4.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-parser-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-client-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-facade-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-binder-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/log4j-1.2.17.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/slf4j-api-1.7.7.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-jdbc-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/postgresql-42.2.5.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-api-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/failureaccess-1.0.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/checker-qual-2.11.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-collections4-4.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-jta-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/logback-classic-1.2.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/error_prone_annotations-2.3.4.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-common-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-framework-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/groovy-2.4.19-indy.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-atomikos-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/snakeyaml-1.16.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/guava-29.0-jre.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-util-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-repository-zookeeper-curator-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-datetime-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/zookeeper-3.6.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-codec-1.10.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-sql92-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/audience-annotations-0.5.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-backend-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/logback-core-1.2.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/atomikos-util-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-resolver-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-handler-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-distsql-parser-statement-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-context-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-native-epoll-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/j2objc-annotations-1.3.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-api-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-lang-2.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-test-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-tracing-opentracing-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jsr305-3.0.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-system-datetime-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-statement-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-buffer-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/zookeeper-jute-3.6.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-distsql-parser-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-oracle-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-rewrite-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-recipes-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/ext-lib/*
+[INFO ] 21:08:25.091 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/Users/gaozhao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[INFO ] 21:08:25.091 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/var/folders/2c/7mrcl9hn377bptzdqcm96r000000gn/T/
+[INFO ] 21:08:25.091 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+[INFO ] 21:08:25.091 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.name=Mac OS X
+[INFO ] 21:08:25.091 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86_64
+[INFO ] 21:08:25.091 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.14.6
+[INFO ] 21:08:25.091 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.name=gaozhao
+[INFO ] 21:08:25.091 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.home=/Users/gaozhao
+[INFO ] 21:08:25.091 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy
+[INFO ] 21:08:25.091 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.free=1847MB
+[INFO ] 21:08:25.091 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.max=1945MB
+[INFO ] 21:08:25.091 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.total=1945MB
+[INFO ] 21:08:25.095 [main] org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4facf68f
+[INFO ] 21:08:25.100 [main] org.apache.zookeeper.common.X509Util - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+[INFO ] 21:08:25.109 [main] o.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 1048575 Bytes
+[INFO ] 21:08:25.117 [main] org.apache.zookeeper.ClientCnxn - zookeeper.request.timeout value is 0. feature enabled=false
+[INFO ] 21:08:25.121 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181.
+[INFO ] 21:08:25.121 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+[INFO ] 21:08:25.126 [main] o.a.c.f.imps.CuratorFrameworkImpl - Default schema
+[INFO ] 21:08:25.135 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:55006, server: localhost/127.0.0.1:2181
+[INFO ] 21:08:25.151 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2181, session id = 0x1763304553c0000, negotiated timeout = 40000
+[INFO ] 21:08:25.157 [main-EventThread] o.a.c.f.state.ConnectionStateManager - State change: CONNECTED
+Exception in thread "main" java.lang.ClassCastException: java.lang.String cannot be cast to org.apache.shardingsphere.infra.yaml.config.YamlRuleConfiguration
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.infra.yaml.swapper.YamlRuleConfigurationSwapperEngine.swapToRuleConfigurations(YamlRuleConfigurationSwapperEngine.java:66)
+	at org.apache.shardingsphere.proxy.initializer.impl.GovernanceBootstrapInitializer.lambda$getRuleConfigurations$0(GovernanceBootstrapInitializer.java:87)
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1321)
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.proxy.initializer.impl.GovernanceBootstrapInitializer.getRuleConfigurations(GovernanceBootstrapInitializer.java:86)
+	at org.apache.shardingsphere.proxy.initializer.impl.GovernanceBootstrapInitializer.initConfigurations(GovernanceBootstrapInitializer.java:67)
+	at org.apache.shardingsphere.proxy.initializer.impl.GovernanceBootstrapInitializer.getProxyConfiguration(GovernanceBootstrapInitializer.java:56)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.init(AbstractBootstrapInitializer.java:62)
+	at org.apache.shardingsphere.proxy.Bootstrap.main(Bootstrap.java:48)
+[INFO ] 21:11:50.943 [main] o.a.c.f.imps.CuratorFrameworkImpl - Starting
+[INFO ] 21:11:50.955 [main] org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 02/25/2020 14:38 GMT
+[INFO ] 21:11:50.955 [main] org.apache.zookeeper.ZooKeeper - Client environment:host.name=localhost
+[INFO ] 21:11:50.955 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_221
+[INFO ] 21:11:50.955 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+[INFO ] 21:11:50.955 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=.:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-context-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-executor-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-sqlserver-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-config-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jta-1.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-repository-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-codec-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jcl-over-slf4j-1.7.7.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-bootstrap-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-registry-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/antlr4-runtime-4.7.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-all-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-noop-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/HikariCP-3.4.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-parser-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-client-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-facade-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-binder-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/log4j-1.2.17.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/slf4j-api-1.7.7.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-jdbc-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/postgresql-42.2.5.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-api-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/failureaccess-1.0.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/checker-qual-2.11.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-collections4-4.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-jta-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/logback-classic-1.2.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/error_prone_annotations-2.3.4.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-common-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-framework-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/groovy-2.4.19-indy.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-atomikos-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/snakeyaml-1.16.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/guava-29.0-jre.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-util-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-repository-zookeeper-curator-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-datetime-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/zookeeper-3.6.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-codec-1.10.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-sql92-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/audience-annotations-0.5.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-backend-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/logback-core-1.2.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/atomikos-util-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-resolver-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-handler-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-distsql-parser-statement-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-context-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-native-epoll-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/j2objc-annotations-1.3.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-api-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-lang-2.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-test-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-tracing-opentracing-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jsr305-3.0.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-system-datetime-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-statement-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-buffer-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/zookeeper-jute-3.6.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-distsql-parser-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-oracle-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-rewrite-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-recipes-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/ext-lib/*
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/Users/gaozhao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/var/folders/2c/7mrcl9hn377bptzdqcm96r000000gn/T/
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.name=Mac OS X
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86_64
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.14.6
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.name=gaozhao
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.home=/Users/gaozhao
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.free=1847MB
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.max=1945MB
+[INFO ] 21:11:50.956 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.total=1945MB
+[INFO ] 21:11:50.959 [main] org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4facf68f
+[INFO ] 21:11:50.966 [main] org.apache.zookeeper.common.X509Util - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+[INFO ] 21:11:50.975 [main] o.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 1048575 Bytes
+[INFO ] 21:11:50.981 [main] org.apache.zookeeper.ClientCnxn - zookeeper.request.timeout value is 0. feature enabled=false
+[INFO ] 21:11:50.987 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181.
+[INFO ] 21:11:50.987 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+[INFO ] 21:11:50.991 [main] o.a.c.f.imps.CuratorFrameworkImpl - Default schema
+[INFO ] 21:11:51.004 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:55338, server: localhost/127.0.0.1:2181
+[INFO ] 21:11:51.014 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2181, session id = 0x1763304553c0001, negotiated timeout = 40000
+[INFO ] 21:11:51.020 [main-EventThread] o.a.c.f.state.ConnectionStateManager - State change: CONNECTED
+Exception in thread "main" java.lang.ClassCastException: java.lang.String cannot be cast to org.apache.shardingsphere.infra.yaml.config.YamlRuleConfiguration
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.infra.yaml.swapper.YamlRuleConfigurationSwapperEngine.swapToRuleConfigurations(YamlRuleConfigurationSwapperEngine.java:66)
+	at org.apache.shardingsphere.proxy.initializer.impl.GovernanceBootstrapInitializer.lambda$getRuleConfigurations$0(GovernanceBootstrapInitializer.java:87)
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1321)
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.proxy.initializer.impl.GovernanceBootstrapInitializer.getRuleConfigurations(GovernanceBootstrapInitializer.java:86)
+	at org.apache.shardingsphere.proxy.initializer.impl.GovernanceBootstrapInitializer.initConfigurations(GovernanceBootstrapInitializer.java:67)
+	at org.apache.shardingsphere.proxy.initializer.impl.GovernanceBootstrapInitializer.getProxyConfiguration(GovernanceBootstrapInitializer.java:56)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.init(AbstractBootstrapInitializer.java:62)
+	at org.apache.shardingsphere.proxy.Bootstrap.main(Bootstrap.java:48)
+Exception in thread "main" java.lang.IllegalArgumentException: Invalid port `start`.
+	at org.apache.shardingsphere.proxy.arguments.BootstrapArguments.getPort(BootstrapArguments.java:48)
+	at org.apache.shardingsphere.proxy.arguments.BootstrapArguments.<init>(BootstrapArguments.java:37)
+	at org.apache.shardingsphere.proxy.Bootstrap.main(Bootstrap.java:46)
+[INFO ] 22:35:39.672 [main] o.a.c.f.imps.CuratorFrameworkImpl - Starting
+[INFO ] 22:35:39.684 [main] org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 02/25/2020 14:38 GMT
+[INFO ] 22:35:39.684 [main] org.apache.zookeeper.ZooKeeper - Client environment:host.name=localhost
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_221
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=.:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-context-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-executor-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-sqlserver-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-config-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jta-1.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-repository-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-codec-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jcl-over-slf4j-1.7.7.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-bootstrap-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-registry-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/antlr4-runtime-4.7.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-all-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-noop-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/HikariCP-3.4.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-parser-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-client-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-facade-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-binder-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/log4j-1.2.17.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/slf4j-api-1.7.7.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-jdbc-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/postgresql-42.2.5.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-api-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/failureaccess-1.0.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/checker-qual-2.11.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-collections4-4.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-jta-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/logback-classic-1.2.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/error_prone_annotations-2.3.4.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-common-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-framework-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/groovy-2.4.19-indy.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-atomikos-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/snakeyaml-1.16.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/guava-29.0-jre.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-util-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-repository-zookeeper-curator-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-datetime-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/zookeeper-3.6.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-codec-1.10.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-sql92-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/audience-annotations-0.5.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-backend-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/logback-core-1.2.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/atomikos-util-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-resolver-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-handler-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-distsql-parser-statement-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-context-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-native-epoll-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/j2objc-annotations-1.3.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-api-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-lang-2.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-test-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-tracing-opentracing-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jsr305-3.0.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-system-datetime-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-statement-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-buffer-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/zookeeper-jute-3.6.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-distsql-parser-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-oracle-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-rewrite-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-recipes-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/ext-lib/*
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/Users/gaozhao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/var/folders/2c/7mrcl9hn377bptzdqcm96r000000gn/T/
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.name=Mac OS X
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86_64
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.14.6
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.name=gaozhao
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.home=/Users/gaozhao
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.free=1847MB
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.max=1945MB
+[INFO ] 22:35:39.685 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.total=1945MB
+[INFO ] 22:35:39.689 [main] org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@694abbdc
+[INFO ] 22:35:39.695 [main] org.apache.zookeeper.common.X509Util - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+[INFO ] 22:35:39.704 [main] o.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 1048575 Bytes
+[INFO ] 22:35:39.711 [main] org.apache.zookeeper.ClientCnxn - zookeeper.request.timeout value is 0. feature enabled=false
+[INFO ] 22:35:39.716 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181.
+[INFO ] 22:35:39.717 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+[INFO ] 22:35:39.720 [main] o.a.c.f.imps.CuratorFrameworkImpl - Default schema
+[INFO ] 22:35:39.731 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:61331, server: localhost/127.0.0.1:2181
+[INFO ] 22:35:39.740 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2181, session id = 0x10011068ff40007, negotiated timeout = 40000
+[INFO ] 22:35:39.746 [main-EventThread] o.a.c.f.state.ConnectionStateManager - State change: CONNECTED
+[INFO ] 22:35:39.765 [main-EventThread] o.a.c.framework.imps.EnsembleTracker - New config event received: {}
+[INFO ] 22:35:39.766 [main-EventThread] o.a.c.framework.imps.EnsembleTracker - New config event received: {}
+[INFO ] 22:35:39.995 [main] o.apache.curator.utils.Compatibility - Using org.apache.zookeeper.server.quorum.MultipleAddresses
+Exception in thread "main" org.apache.shardingsphere.infra.exception.ShardingSphereException: Cannot load JDBC driver class `com.mysql.jdbc.Driver`, make sure it in ShardingSphere-Proxy's classpath.
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.datasource.factory.JDBCRawBackendDataSourceFactory.validateDriverClassName(JDBCRawBackendDataSourceFactory.java:79)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.datasource.factory.JDBCRawBackendDataSourceFactory.build(JDBCRawBackendDataSourceFactory.java:59)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.createDataSources(AbstractBootstrapInitializer.java:94)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.lambda$createDataSourcesMap$0(AbstractBootstrapInitializer.java:88)
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1321)
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.createDataSourcesMap(AbstractBootstrapInitializer.java:88)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.createSchemaContexts(AbstractBootstrapInitializer.java:73)
+	at org.apache.shardingsphere.proxy.initializer.impl.AbstractBootstrapInitializer.init(AbstractBootstrapInitializer.java:63)
+	at org.apache.shardingsphere.proxy.Bootstrap.main(Bootstrap.java:48)
+[INFO ] 22:41:42.081 [main] o.a.c.f.imps.CuratorFrameworkImpl - Starting
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 02/25/2020 14:38 GMT
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:host.name=localhost
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_221
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=.:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-context-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-executor-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-sqlserver-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-config-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jta-1.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-repository-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-codec-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jcl-over-slf4j-1.7.7.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-bootstrap-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-registry-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/antlr4-runtime-4.7.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-all-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-noop-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/HikariCP-3.4.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-parser-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-client-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-facade-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-binder-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/log4j-1.2.17.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/slf4j-api-1.7.7.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-jdbc-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/postgresql-42.2.5.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-api-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/failureaccess-1.0.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/checker-qual-2.11.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-collections4-4.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-jta-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/logback-classic-1.2.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/error_prone_annotations-2.3.4.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-common-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-framework-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/groovy-2.4.19-indy.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-atomikos-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/snakeyaml-1.16.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/guava-29.0-jre.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-util-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-repository-zookeeper-curator-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-datetime-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/mysql-connector-java-5.1.46.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/zookeeper-3.6.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-codec-1.10.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-sql92-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/audience-annotations-0.5.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-backend-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/logback-core-1.2.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/atomikos-util-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-resolver-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-handler-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-distsql-parser-statement-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-context-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-native-epoll-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/j2objc-annotations-1.3.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-api-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-lang-2.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-test-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-tracing-opentracing-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jsr305-3.0.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-system-datetime-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-statement-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-buffer-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/zookeeper-jute-3.6.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-distsql-parser-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-oracle-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-rewrite-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-recipes-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/ext-lib/*
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/Users/gaozhao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/var/folders/2c/7mrcl9hn377bptzdqcm96r000000gn/T/
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.name=Mac OS X
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86_64
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.14.6
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.name=gaozhao
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.home=/Users/gaozhao
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.free=1847MB
+[INFO ] 22:41:42.094 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.max=1945MB
+[INFO ] 22:41:42.095 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.total=1945MB
+[INFO ] 22:41:42.098 [main] org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4567f35d
+[INFO ] 22:41:42.103 [main] org.apache.zookeeper.common.X509Util - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+[INFO ] 22:41:42.113 [main] o.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 1048575 Bytes
+[INFO ] 22:41:42.119 [main] org.apache.zookeeper.ClientCnxn - zookeeper.request.timeout value is 0. feature enabled=false
+[INFO ] 22:41:42.125 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181.
+[INFO ] 22:41:42.125 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+[INFO ] 22:41:42.129 [main] o.a.c.f.imps.CuratorFrameworkImpl - Default schema
+[INFO ] 22:41:42.140 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:61822, server: localhost/127.0.0.1:2181
+[INFO ] 22:41:42.148 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2181, session id = 0x10011068ff40008, negotiated timeout = 40000
+[INFO ] 22:41:42.154 [main-EventThread] o.a.c.f.state.ConnectionStateManager - State change: CONNECTED
+[INFO ] 22:41:42.173 [main-EventThread] o.a.c.framework.imps.EnsembleTracker - New config event received: {}
+[INFO ] 22:41:42.174 [main-EventThread] o.a.c.framework.imps.EnsembleTracker - New config event received: {}
+[INFO ] 22:41:42.341 [main] o.apache.curator.utils.Compatibility - Using org.apache.zookeeper.server.quorum.MultipleAddresses
+[INFO ] 22:41:43.142 [main] ShardingSphere-metadata - Loading 12 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.148 [main] ShardingSphere-metadata - Loading 6 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.152 [main] ShardingSphere-metadata - Loading 13 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.154 [main] ShardingSphere-metadata - Loading 7 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.160 [main] o.a.s.i.c.s.SchemaContextsBuilder - Load meta data for schema sharding_db finished, cost 69 milliseconds.
+[INFO ] 22:41:43.210 [Curator-SafeNotifyService-0] ShardingSphere-metadata - Loading 12 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.211 [Curator-SafeNotifyService-0] ShardingSphere-metadata - Loading 6 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.215 [Curator-SafeNotifyService-0] ShardingSphere-metadata - Loading 13 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.216 [Curator-SafeNotifyService-0] ShardingSphere-metadata - Loading 7 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.216 [Curator-SafeNotifyService-0] o.a.s.i.c.s.SchemaContextsBuilder - Load meta data for schema sharding_db finished, cost 11 milliseconds.
+Thanks for using Atomikos! Evaluate http://www.atomikos.com/Main/ExtremeTransactions for advanced features and professional support
+or register at http://www.atomikos.com/Main/RegisterYourDownload to disable this message and receive FREE tips & advice
+[INFO ] 22:41:43.241 [Curator-SafeNotifyService-0] ShardingSphere-metadata - Loading 12 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.242 [Curator-SafeNotifyService-0] ShardingSphere-metadata - Loading 6 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.244 [Curator-SafeNotifyService-0] ShardingSphere-metadata - Loading 13 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.246 [Curator-SafeNotifyService-0] ShardingSphere-metadata - Loading 7 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.246 [Curator-SafeNotifyService-0] o.a.s.i.c.s.SchemaContextsBuilder - Load meta data for schema sharding_db finished, cost 10 milliseconds.
+[INFO ] 22:41:43.266 [Curator-SafeNotifyService-0] ShardingSphere-metadata - Loading 12 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.267 [Curator-SafeNotifyService-0] ShardingSphere-metadata - Loading 6 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.268 [Curator-SafeNotifyService-0] ShardingSphere-metadata - Loading 13 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.269 [main] o.a.s.p.i.i.AbstractBootstrapInitializer - Database name is `MySQL`, version is `5.7.15-log`
+[INFO ] 22:41:43.270 [Curator-SafeNotifyService-0] ShardingSphere-metadata - Loading 7 tables' meta data for unconfigured tables.
+[INFO ] 22:41:43.270 [Curator-SafeNotifyService-0] o.a.s.i.c.s.SchemaContextsBuilder - Load meta data for schema sharding_db finished, cost 9 milliseconds.
+Thanks for using Atomikos! Evaluate http://www.atomikos.com/Main/ExtremeTransactions for advanced features and professional support
+or register at http://www.atomikos.com/Main/RegisterYourDownload to disable this message and receive FREE tips & advice
+[INFO ] 22:41:43.453 [main] o.a.s.p.frontend.ShardingSphereProxy - ShardingSphere-Proxy start success.
+[ERROR] 22:49:16.286 [ShardingSphere-Command-9] o.a.s.p.f.c.CommandExecutorTask - Exception occur: 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'kad.t_order_0' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2482)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2440)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:939)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:103)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.statement.accessor.impl.StatementAccessor.execute(StatementAccessor.java:43)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:84)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:77)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:48)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute0(DefaultSQLExecutorCallback.java:75)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute(DefaultSQLExecutorCallback.java:57)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.syncExecute(ExecutorKernel.java:99)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.parallelExecute(ExecutorKernel.java:95)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.execute(ExecutorKernel.java:78)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.SQLExecutor.execute(SQLExecutor.java:65)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.executeWithManagedResource(JDBCExecuteEngine.java:130)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:123)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:103)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.doExecute(JDBCDatabaseCommunicationEngine.java:93)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.execute(JDBCDatabaseCommunicationEngine.java:79)
+	at org.apache.shardingsphere.proxy.backend.text.query.QueryBackendHandler.execute(QueryBackendHandler.java:61)
+	at org.apache.shardingsphere.proxy.frontend.mysql.command.query.text.query.MySQLComQueryPacketExecutor.execute(MySQLComQueryPacketExecutor.java:62)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.executeCommand(CommandExecutorTask.java:100)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.run(CommandExecutorTask.java:76)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR] 22:49:25.937 [ShardingSphere-Command-10] o.a.s.p.f.c.CommandExecutorTask - Exception occur: 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'kad.t_order_0'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2482)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2440)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:939)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:103)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.statement.accessor.impl.StatementAccessor.execute(StatementAccessor.java:43)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:84)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:77)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:48)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute0(DefaultSQLExecutorCallback.java:75)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute(DefaultSQLExecutorCallback.java:57)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.syncExecute(ExecutorKernel.java:99)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.parallelExecute(ExecutorKernel.java:95)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.execute(ExecutorKernel.java:78)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.SQLExecutor.execute(SQLExecutor.java:65)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.executeWithManagedResource(JDBCExecuteEngine.java:130)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:123)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:103)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.doExecute(JDBCDatabaseCommunicationEngine.java:93)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.execute(JDBCDatabaseCommunicationEngine.java:79)
+	at org.apache.shardingsphere.proxy.backend.text.query.QueryBackendHandler.execute(QueryBackendHandler.java:61)
+	at org.apache.shardingsphere.proxy.frontend.mysql.command.query.text.query.MySQLComQueryPacketExecutor.execute(MySQLComQueryPacketExecutor.java:62)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.executeCommand(CommandExecutorTask.java:100)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.run(CommandExecutorTask.java:76)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR] 22:49:36.046 [ShardingSphere-Command-13] o.a.s.p.f.c.CommandExecutorTask - Exception occur: 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'sharding_db.account'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2482)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2440)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:939)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:103)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.statement.accessor.impl.StatementAccessor.execute(StatementAccessor.java:43)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:84)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:77)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:48)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute0(DefaultSQLExecutorCallback.java:75)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute(DefaultSQLExecutorCallback.java:57)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.syncExecute(ExecutorKernel.java:99)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.parallelExecute(ExecutorKernel.java:95)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.execute(ExecutorKernel.java:78)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.SQLExecutor.execute(SQLExecutor.java:65)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.executeWithManagedResource(JDBCExecuteEngine.java:130)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:123)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:103)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.doExecute(JDBCDatabaseCommunicationEngine.java:93)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.execute(JDBCDatabaseCommunicationEngine.java:79)
+	at org.apache.shardingsphere.proxy.backend.text.query.QueryBackendHandler.execute(QueryBackendHandler.java:61)
+	at org.apache.shardingsphere.proxy.frontend.mysql.command.query.text.query.MySQLComQueryPacketExecutor.execute(MySQLComQueryPacketExecutor.java:62)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.executeCommand(CommandExecutorTask.java:100)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.run(CommandExecutorTask.java:76)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR] 22:49:42.774 [ShardingSphere-Command-15] o.a.s.p.f.c.CommandExecutorTask - Exception occur: 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'kad.t_order_0' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2482)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2440)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:939)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:103)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.statement.accessor.impl.StatementAccessor.execute(StatementAccessor.java:43)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:84)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:77)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:48)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute0(DefaultSQLExecutorCallback.java:75)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute(DefaultSQLExecutorCallback.java:57)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.syncExecute(ExecutorKernel.java:99)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.parallelExecute(ExecutorKernel.java:95)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.execute(ExecutorKernel.java:78)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.SQLExecutor.execute(SQLExecutor.java:65)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.executeWithManagedResource(JDBCExecuteEngine.java:130)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:123)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:103)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.doExecute(JDBCDatabaseCommunicationEngine.java:93)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.execute(JDBCDatabaseCommunicationEngine.java:79)
+	at org.apache.shardingsphere.proxy.backend.text.query.QueryBackendHandler.execute(QueryBackendHandler.java:61)
+	at org.apache.shardingsphere.proxy.frontend.mysql.command.query.text.query.MySQLComQueryPacketExecutor.execute(MySQLComQueryPacketExecutor.java:62)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.executeCommand(CommandExecutorTask.java:100)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.run(CommandExecutorTask.java:76)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR] 22:50:00.496 [ShardingSphere-Command-8] o.a.s.p.f.c.CommandExecutorTask - Exception occur: 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'kad.t_order_0' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2482)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2440)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:939)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:103)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.statement.accessor.impl.StatementAccessor.execute(StatementAccessor.java:43)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:84)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:77)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:48)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute0(DefaultSQLExecutorCallback.java:75)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute(DefaultSQLExecutorCallback.java:57)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.syncExecute(ExecutorKernel.java:99)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.parallelExecute(ExecutorKernel.java:95)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.execute(ExecutorKernel.java:78)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.SQLExecutor.execute(SQLExecutor.java:65)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.executeWithManagedResource(JDBCExecuteEngine.java:130)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:123)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:103)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.doExecute(JDBCDatabaseCommunicationEngine.java:93)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.execute(JDBCDatabaseCommunicationEngine.java:79)
+	at org.apache.shardingsphere.proxy.backend.text.query.QueryBackendHandler.execute(QueryBackendHandler.java:61)
+	at org.apache.shardingsphere.proxy.frontend.mysql.command.query.text.query.MySQLComQueryPacketExecutor.execute(MySQLComQueryPacketExecutor.java:62)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.executeCommand(CommandExecutorTask.java:100)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.run(CommandExecutorTask.java:76)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR] 22:50:30.050 [ShardingSphere-Command-11] o.a.s.p.f.c.CommandExecutorTask - Exception occur: 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'kad.t_order_0' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2482)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2440)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:939)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:103)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.statement.accessor.impl.StatementAccessor.execute(StatementAccessor.java:43)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:84)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:77)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:48)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute0(DefaultSQLExecutorCallback.java:75)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute(DefaultSQLExecutorCallback.java:57)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.syncExecute(ExecutorKernel.java:99)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.parallelExecute(ExecutorKernel.java:95)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.execute(ExecutorKernel.java:78)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.SQLExecutor.execute(SQLExecutor.java:65)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.executeWithManagedResource(JDBCExecuteEngine.java:130)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:123)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:103)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.doExecute(JDBCDatabaseCommunicationEngine.java:93)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.execute(JDBCDatabaseCommunicationEngine.java:79)
+	at org.apache.shardingsphere.proxy.backend.text.query.QueryBackendHandler.execute(QueryBackendHandler.java:61)
+	at org.apache.shardingsphere.proxy.frontend.mysql.command.query.text.query.MySQLComQueryPacketExecutor.execute(MySQLComQueryPacketExecutor.java:62)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.executeCommand(CommandExecutorTask.java:100)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.run(CommandExecutorTask.java:76)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO ] 22:52:18.311 [main] o.a.c.f.imps.CuratorFrameworkImpl - Starting
+[INFO ] 22:52:18.320 [main] org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 02/25/2020 14:38 GMT
+[INFO ] 22:52:18.320 [main] org.apache.zookeeper.ZooKeeper - Client environment:host.name=localhost
+[INFO ] 22:52:18.320 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_221
+[INFO ] 22:52:18.320 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+[INFO ] 22:52:18.320 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=.:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-context-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-executor-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-sqlserver-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-config-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jta-1.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-repository-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-codec-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jcl-over-slf4j-1.7.7.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-bootstrap-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-registry-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/antlr4-runtime-4.7.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-all-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-noop-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/HikariCP-3.4.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-parser-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-client-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-facade-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-binder-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/log4j-1.2.17.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/slf4j-api-1.7.7.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-jdbc-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/postgresql-42.2.5.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-api-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/failureaccess-1.0.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/checker-qual-2.11.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-collections4-4.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-jta-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/logback-classic-1.2.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/error_prone_annotations-2.3.4.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-common-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-framework-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/groovy-2.4.19-indy.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-atomikos-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/snakeyaml-1.16.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/guava-29.0-jre.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-util-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-repository-zookeeper-curator-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-datetime-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/mysql-connector-java-5.1.46.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/zookeeper-3.6.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-codec-1.10.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-sql92-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/audience-annotations-0.5.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-backend-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/logback-core-1.2.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/atomikos-util-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-resolver-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-handler-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-distsql-parser-statement-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-context-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-native-epoll-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/j2objc-annotations-1.3.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-api-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-lang-2.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-test-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-tracing-opentracing-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jsr305-3.0.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-system-datetime-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-statement-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-buffer-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/zookeeper-jute-3.6.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-distsql-parser-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-oracle-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-rewrite-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-recipes-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/ext-lib/*
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/Users/gaozhao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/var/folders/2c/7mrcl9hn377bptzdqcm96r000000gn/T/
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.name=Mac OS X
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86_64
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.14.6
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.name=gaozhao
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.home=/Users/gaozhao
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.free=1847MB
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.max=1945MB
+[INFO ] 22:52:18.321 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.total=1945MB
+[INFO ] 22:52:18.324 [main] org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4567f35d
+[INFO ] 22:52:18.328 [main] org.apache.zookeeper.common.X509Util - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+[INFO ] 22:52:18.336 [main] o.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 1048575 Bytes
+[INFO ] 22:52:18.341 [main] org.apache.zookeeper.ClientCnxn - zookeeper.request.timeout value is 0. feature enabled=false
+[INFO ] 22:52:18.345 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181.
+[INFO ] 22:52:18.345 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+[INFO ] 22:52:18.348 [main] o.a.c.f.imps.CuratorFrameworkImpl - Default schema
+[INFO ] 22:52:18.359 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:62589, server: localhost/127.0.0.1:2181
+[INFO ] 22:52:18.366 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2181, session id = 0x10011068ff40009, negotiated timeout = 40000
+[INFO ] 22:52:18.371 [main-EventThread] o.a.c.f.state.ConnectionStateManager - State change: CONNECTED
+[INFO ] 22:52:18.387 [main-EventThread] o.a.c.framework.imps.EnsembleTracker - New config event received: {}
+[INFO ] 22:52:18.387 [main-EventThread] o.a.c.framework.imps.EnsembleTracker - New config event received: {}
+[INFO ] 22:52:18.512 [main] o.apache.curator.utils.Compatibility - Using org.apache.zookeeper.server.quorum.MultipleAddresses
+[INFO ] 22:52:19.165 [main] ShardingSphere-metadata - Loading 12 tables' meta data for unconfigured tables.
+[INFO ] 22:52:19.169 [main] ShardingSphere-metadata - Loading 6 tables' meta data for unconfigured tables.
+[INFO ] 22:52:19.174 [main] ShardingSphere-metadata - Loading 13 tables' meta data for unconfigured tables.
+[INFO ] 22:52:19.175 [main] ShardingSphere-metadata - Loading 7 tables' meta data for unconfigured tables.
+[INFO ] 22:52:19.180 [main] o.a.s.i.c.s.SchemaContextsBuilder - Load meta data for schema sharding_db finished, cost 58 milliseconds.
+Thanks for using Atomikos! Evaluate http://www.atomikos.com/Main/ExtremeTransactions for advanced features and professional support
+or register at http://www.atomikos.com/Main/RegisterYourDownload to disable this message and receive FREE tips & advice
+[INFO ] 22:52:19.272 [main] o.a.s.p.i.i.AbstractBootstrapInitializer - Database name is `MySQL`, version is `5.7.15-log`
+[INFO ] 22:52:19.375 [main] o.a.s.p.frontend.ShardingSphereProxy - ShardingSphere-Proxy start success.
+[ERROR] 22:52:30.443 [ShardingSphere-Command-5] o.a.s.p.f.c.CommandExecutorTask - Exception occur: 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'kad.t_order_0' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2482)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2440)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:939)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:103)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.statement.accessor.impl.StatementAccessor.execute(StatementAccessor.java:43)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:84)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:77)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:48)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute0(DefaultSQLExecutorCallback.java:75)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute(DefaultSQLExecutorCallback.java:57)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.syncExecute(ExecutorKernel.java:99)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.parallelExecute(ExecutorKernel.java:95)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.execute(ExecutorKernel.java:78)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.SQLExecutor.execute(SQLExecutor.java:65)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.executeWithManagedResource(JDBCExecuteEngine.java:130)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:123)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:103)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.doExecute(JDBCDatabaseCommunicationEngine.java:93)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.execute(JDBCDatabaseCommunicationEngine.java:79)
+	at org.apache.shardingsphere.proxy.backend.text.query.QueryBackendHandler.execute(QueryBackendHandler.java:61)
+	at org.apache.shardingsphere.proxy.frontend.mysql.command.query.text.query.MySQLComQueryPacketExecutor.execute(MySQLComQueryPacketExecutor.java:62)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.executeCommand(CommandExecutorTask.java:100)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.run(CommandExecutorTask.java:76)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR] 22:56:07.107 [ShardingSphere-Command-13] o.a.s.p.f.c.CommandExecutorTask - Exception occur: 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'sharding_db.t_order_2' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2482)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2440)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:845)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:939)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:103)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.statement.accessor.impl.StatementAccessor.execute(StatementAccessor.java:43)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:84)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:77)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.ProxySQLExecutorCallback.executeSQL(ProxySQLExecutorCallback.java:48)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute0(DefaultSQLExecutorCallback.java:75)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.impl.DefaultSQLExecutorCallback.execute(DefaultSQLExecutorCallback.java:57)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.syncExecute(ExecutorKernel.java:99)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.parallelExecute(ExecutorKernel.java:95)
+	at org.apache.shardingsphere.infra.executor.kernel.ExecutorKernel.execute(ExecutorKernel.java:78)
+	at org.apache.shardingsphere.infra.executor.sql.resourced.jdbc.executor.SQLExecutor.execute(SQLExecutor.java:65)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.executeWithManagedResource(JDBCExecuteEngine.java:130)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:123)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.execute.engine.jdbc.JDBCExecuteEngine.execute(JDBCExecuteEngine.java:103)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.doExecute(JDBCDatabaseCommunicationEngine.java:93)
+	at org.apache.shardingsphere.proxy.backend.communication.jdbc.JDBCDatabaseCommunicationEngine.execute(JDBCDatabaseCommunicationEngine.java:79)
+	at org.apache.shardingsphere.proxy.backend.text.query.QueryBackendHandler.execute(QueryBackendHandler.java:61)
+	at org.apache.shardingsphere.proxy.frontend.mysql.command.query.text.query.MySQLComQueryPacketExecutor.execute(MySQLComQueryPacketExecutor.java:62)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.executeCommand(CommandExecutorTask.java:100)
+	at org.apache.shardingsphere.proxy.frontend.command.CommandExecutorTask.run(CommandExecutorTask.java:76)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO ] 22:59:04.066 [main] o.a.c.f.imps.CuratorFrameworkImpl - Starting
+[INFO ] 22:59:04.076 [main] org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 02/25/2020 14:38 GMT
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:host.name=localhost
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_221
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=.:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-context-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-executor-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-sqlserver-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-config-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jta-1.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-repository-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-codec-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jcl-over-slf4j-1.7.7.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-bootstrap-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-registry-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/antlr4-runtime-4.7.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-all-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-noop-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/HikariCP-3.4.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-parser-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-client-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-facade-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-binder-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-encrypt-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/log4j-1.2.17.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/slf4j-api-1.7.7.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-jdbc-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/postgresql-42.2.5.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-core-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-db-protocol-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-api-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/failureaccess-1.0.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/checker-qual-2.11.1.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-collections4-4.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-rewrite-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-jta-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/logback-classic-1.2.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/error_prone_annotations-2.3.4.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-common-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-framework-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/groovy-2.4.19-indy.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-atomikos-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/snakeyaml-1.16.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/guava-29.0-jre.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/opentracing-util-0.30.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-mysql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-governance-repository-zookeeper-curator-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-datetime-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/mysql-connector-java-5.1.46.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/zookeeper-3.6.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-codec-1.10.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-sql92-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/audience-annotations-0.5.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sharding-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-backend-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/logback-core-1.2.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/atomikos-util-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-shadow-api-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-resolver-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-handler-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-distsql-parser-statement-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-context-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-replica-query-route-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-transport-native-epoll-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/j2objc-annotations-1.3.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-merge-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/transactions-api-4.0.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/commons-lang-2.6.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-test-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-tracing-opentracing-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-transaction-xa-core-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/jsr305-3.0.2.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-system-datetime-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-statement-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/netty-buffer-4.1.45.Final.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/zookeeper-jute-3.6.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-distsql-parser-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-sql-parser-oracle-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-rewrite-engine-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-postgresql-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/curator-recipes-5.1.0.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-proxy-frontend-spi-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/lib/shardingsphere-infra-common-5.0.0-alpha.jar:/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy/ext-lib/*
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/Users/gaozhao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/var/folders/2c/7mrcl9hn377bptzdqcm96r000000gn/T/
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.name=Mac OS X
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86_64
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.14.6
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.name=gaozhao
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.home=/Users/gaozhao
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/Users/gaozhao/Downloads/soft/software/shardingsphere-5.0.0-proxy
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.free=1847MB
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.max=1945MB
+[INFO ] 22:59:04.077 [main] org.apache.zookeeper.ZooKeeper - Client environment:os.memory.total=1945MB
+[INFO ] 22:59:04.079 [main] org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4567f35d
+[INFO ] 22:59:04.083 [main] org.apache.zookeeper.common.X509Util - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+[INFO ] 22:59:04.091 [main] o.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 1048575 Bytes
+[INFO ] 22:59:04.096 [main] org.apache.zookeeper.ClientCnxn - zookeeper.request.timeout value is 0. feature enabled=false
+[INFO ] 22:59:04.100 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181.
+[INFO ] 22:59:04.100 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+[INFO ] 22:59:04.103 [main] o.a.c.f.imps.CuratorFrameworkImpl - Default schema
+[INFO ] 22:59:04.114 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Socket connection established, initiating session, client: /127.0.0.1:63052, server: localhost/127.0.0.1:2181
+[INFO ] 22:59:04.120 [main-SendThread(localhost:2181)] org.apache.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2181, session id = 0x10011068ff4000a, negotiated timeout = 40000
+[INFO ] 22:59:04.125 [main-EventThread] o.a.c.f.state.ConnectionStateManager - State change: CONNECTED
+[INFO ] 22:59:04.141 [main-EventThread] o.a.c.framework.imps.EnsembleTracker - New config event received: {}
+[INFO ] 22:59:04.142 [main-EventThread] o.a.c.framework.imps.EnsembleTracker - New config event received: {}
+[INFO ] 22:59:04.271 [main] o.apache.curator.utils.Compatibility - Using org.apache.zookeeper.server.quorum.MultipleAddresses
+[INFO ] 22:59:04.932 [main] ShardingSphere-metadata - Loading 11 tables' meta data for unconfigured tables.
+[INFO ] 22:59:04.934 [main] ShardingSphere-metadata - Loading 5 tables' meta data for unconfigured tables.
+[INFO ] 22:59:04.938 [main] ShardingSphere-metadata - Loading 13 tables' meta data for unconfigured tables.
+[INFO ] 22:59:04.939 [main] ShardingSphere-metadata - Loading 7 tables' meta data for unconfigured tables.
+[INFO ] 22:59:04.945 [main] o.a.s.i.c.s.SchemaContextsBuilder - Load meta data for schema sharding_db finished, cost 63 milliseconds.
+Thanks for using Atomikos! Evaluate http://www.atomikos.com/Main/ExtremeTransactions for advanced features and professional support
+or register at http://www.atomikos.com/Main/RegisterYourDownload to disable this message and receive FREE tips & advice
+[INFO ] 22:59:05.037 [main] o.a.s.p.i.i.AbstractBootstrapInitializer - Database name is `MySQL`, version is `5.7.15-log`
+[INFO ] 22:59:05.143 [main] o.a.s.p.frontend.ShardingSphereProxy - ShardingSphere-Proxy start success.
