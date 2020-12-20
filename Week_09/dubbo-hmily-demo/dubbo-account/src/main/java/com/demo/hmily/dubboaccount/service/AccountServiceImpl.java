@@ -72,7 +72,6 @@ public class AccountServiceImpl implements AccountService {
      */
     @Transactional(rollbackFor = Exception.class)
     public boolean confirm(AccountDTO accountDTO) {
-        System.out.println("============dubbo tcc 执行兑换===============");
         AccountDTO newAccountDTO = trans(accountDTO);
         if (newAccountDTO != null) {
             mapper.confirm(newAccountDTO);
@@ -89,7 +88,6 @@ public class AccountServiceImpl implements AccountService {
      */
     @Transactional(rollbackFor = Exception.class)
     public boolean cancel(AccountDTO accountDTO) {
-        System.out.println("============ dubbo tcc 执行取消兑换===============");
         AccountDTO newAccountDTO = trans(accountDTO);
         if (newAccountDTO != null) {
             mapper.cancel(newAccountDTO);

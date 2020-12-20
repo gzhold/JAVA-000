@@ -34,7 +34,7 @@ public class FreezeAmountServiceImpl implements FreezeAssetService {
 
     @Transactional(rollbackFor = Exception.class)
     public boolean confirm(FreezeAssetDTO freezeAssetDTO) {
-        System.out.println("============dubbo tcc 执行冻结===============");
+        System.out.println("============dubbo tcc 1===============");
         mapper.confirm(freezeAssetDTO);
         return Boolean.TRUE;
     }
@@ -42,7 +42,7 @@ public class FreezeAmountServiceImpl implements FreezeAssetService {
 
     @Transactional(rollbackFor = Exception.class)
     public boolean cancel(FreezeAssetDTO freezeAssetDTO) {
-        System.out.println("============ dubbo tcc 执行取消冻结===============");
+        System.out.println("============ dubbo tcc 2===============");
         mapper.cancel(freezeAssetDTO);
         return Boolean.TRUE;
     }
