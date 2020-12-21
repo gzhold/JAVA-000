@@ -33,3 +33,6 @@ RpcClient 构参会做服务发现的事情，ServiceDiscovery 会扫描zk，将
 2 dubbo + hmily
 
 AccountServiceImpl 实现 tcc demo
+
+
+3 ss 的xa demo已补
