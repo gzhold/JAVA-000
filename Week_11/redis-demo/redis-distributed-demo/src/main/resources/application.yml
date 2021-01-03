@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring:
+  cache:
+    type: redis
+  redis:
+    host: localhost
+    lettuce:
+      pool:
+        max-active: 32
+        max-wait: 10ms
