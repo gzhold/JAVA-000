@@ -107,3 +107,19 @@ $10
 77915:M 04 Jan 2021 22:17:59.691 # CONFIG REWRITE executed with success.
 77915:M 04 Jan 2021 22:18:00.735 * Replica 127.0.0.1:63793 asks for synchronization
 77915:M 04 Jan 2021 22:18:00.735 * Partial resynchronization request from 127.0.0.1:63793 accepted. Sending 157 bytes of backlog starting from offset 2012.
+
+
+（3）cluster
+启动实例
+./redis-server /usr/local/Cellar/redis/cluster/2379.conf
+./redis-server /usr/local/Cellar/redis/cluster/3379.conf
+./redis-server /usr/local/Cellar/redis/cluster/4379.conf
+
+查看节点运行状态 ps -ef |grep redis
+gaozhao@localhost  /usr/local/Cellar/redis/cluster  ps -ef | grep redis
+501 75534     1   0  7:55下午 ??         0:05.46 /usr/local/Cellar/redis/6.0.8/bin/redis-server *:6379
+501 79453 75819   0 10:46下午 ttys000    0:00.00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn redis
+501 79411 75983   0 10:45下午 ttys002    0:00.04 ./redis-server *:2379 [cluster]
+501 79451 76642   0 10:45下午 ttys003    0:00.02 ./redis-server *:4379 [cluster]
+501 79438 76618   0 10:45下午 ttys004    0:00.03 ./redis-server *:3379 [cluster]
+
